@@ -1,0 +1,22 @@
+using System;
+
+namespace SomaDosPrimeirosNumeros
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int INDICE = 13, SOMA = 0, K = 0;
+
+            while (K < INDICE)
+            {
+                K = K + 1;
+                SOMA = SOMA + K;
+            }
+
+            Console.WriteLine($"A soma dos primeiros {INDICE} números inteiros positivos é: {SOMA}");
+        }
+    }
+}
+
+/* Saída: A soma dos primeiros 13 números inteiros positivos é: 91*/
